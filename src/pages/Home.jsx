@@ -16,7 +16,7 @@ const Home = () => {
   }, [selectedQuery]);
 
   const RunQuery = (id) => {
-    id = id === 10 ? 1 : id;
+    id = id === 10 ? 1 : id+1;
     const query = predefinedQueries[id];
     setDisplayResult(query);
   };
