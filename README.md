@@ -4,6 +4,9 @@
 
 This is a web-based application that simulates an SQL query interface, allowing users to explore and analyze product data through a dynamic, interactive dashboard. The project demonstrates frontend development skills, data manipulation, and user interface design.
 
+### Demo
+https://sql-runner-three.vercel.app/
+
 ## 🌟 Features
 
 ### Core Features
@@ -91,23 +94,6 @@ sql-query-interface/
 - Supplier Performance
 - Product Risk Assessment
 
-## 🔍 Performance Optimization
-
-### Rendering Strategies
-- Lazy loading of components
-- Memoization of complex computations
-- Virtualized list rendering
-
-### Performance Metrics
-- Initial Load Time: < 1s
-- Time to Interactive: < 1.5s
-- Lighthouse Score: 90+
-
-## 🧪 Testing
-- Component unit testing
-- Performance benchmarking
-- Cross-browser compatibility
-
 ## 🔧 Customization
 
 ### Adding New Queries
@@ -119,11 +105,6 @@ sql-query-interface/
 - Implement actual backend integration
 - Add more complex query types
 - Enhance visualization techniques
-
-## 📜 Limitations
-- Uses mock data
-- No actual database connection
-- Simulated query processing
 
 ## 🤝 Contributing
 1. Fork the repository
@@ -139,7 +120,3 @@ MIT License
 - React Community
 - Shadcn/UI
 - Open-source contributors
-
-## 📞 Contact
-Your Name - youremail@example.com
-Project Link: [https://github.com/yourusername/sql-query-interface](https://github.com/yourusername/sql-query-interface)
