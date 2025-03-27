@@ -7,6 +7,13 @@ This is a web-based application that simulates an SQL query interface, allowing 
 ### Demo
 https://sql-runner-three.vercel.app/
 
+###Responsive design
+
+![Screenshot (11)](https://github.com/user-attachments/assets/7090ec2a-2833-4314-acc2-45722371ed3b)
+![image](https://github.com/user-attachments/assets/f6de528b-1f51-48ad-a80e-a7037b623b1a)
+![image](https://github.com/user-attachments/assets/005665e6-4ae0-4c4c-bcb0-d4f3079b5cb0)
+
+
 ## 🌟 Features
 
 ### Core Features
