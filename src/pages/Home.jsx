@@ -3,7 +3,7 @@ import QueryEditor from "../components/QueryEditor";
 import DataTable from "../components/DataTable.jsx";
 import QuerySelector from "../components/QuerySelector";
 import predefinedQueries from "../data/queries.js";
-import "./Home.css"; // Import CSS for dark mode
+import "./Home.css"; 
 
 const Home = () => {
   const [selectedQuery, setSelectedQuery] = React.useState(null);
@@ -23,7 +23,6 @@ const Home = () => {
 
   return (
     <div className={darkMode ? "container dark" : "container"}>
-      {/* Header with Dark Mode Toggle */}
       <header>
         <h1>SQL Query Runner</h1>
         <button onClick={() => setDarkMode(!darkMode)}>
@@ -32,9 +31,9 @@ const Home = () => {
       </header>
 
       <div className=" main-content">
-        {/* Predefined Query Dropdown */}
         <div className="left">
           <div style={{ marginBottom: "10px" }}>
+            {/* Dropdown for predefined queries */}
             <label>Select a Predefined Query:</label>
             <br />
             <QuerySelector
@@ -46,6 +45,7 @@ const Home = () => {
 
           <div>
             <label>Current Query:</label>
+            {/* Readonly textara to read the query and syntax */}
             <textarea
               value={selectedQuery?.query}
               readOnly
@@ -69,6 +69,8 @@ const Home = () => {
           {/* Custom Query Input */}
           <div>
             <label>Or Enter Custom Query:</label>
+              {/* Implemented Code Mirror editor for taking imput from user.*/}
+            {/* The user will write some sqk query and trigger the Run Query for some id from predefined queries.*/}
             <QueryEditor
               theme={darkMode}
               query={customQuery}
@@ -84,8 +86,8 @@ const Home = () => {
             </button>
           )}
         </div>
-        <div className="right">
           {/* Results Display */}
+        <div className="right">
           <DataTable selectedQuery={displayResult} />
         </div>
       </div>

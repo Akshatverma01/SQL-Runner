@@ -12,6 +12,7 @@ const DataTable = ({ selectedQuery }) => {
           overflow: "hidden",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
+          marginTop:"20px"
         }}
       >
         <thead>
