@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     setDisplayResult(selectedQuery);
   }, [selectedQuery]);
-
+  
   const RunQuery = (id) => {
     id = id === 10 ? 1 : id;
     const query = predefinedQueries[id];
@@ -73,8 +73,9 @@ const Home = () => {
             {/* The user will write some sqk query and trigger the Run Query for some id from predefined queries.*/}
             <QueryEditor
               theme={darkMode}
-              query={customQuery}
+              customQuery={customQuery} 
               setCustomQuery={setCustomQuery}
+              selectedQuery={selectedQuery}
             />
           </div>
           {customQuery && (

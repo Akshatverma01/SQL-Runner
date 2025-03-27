@@ -4,7 +4,6 @@ const QuerySelector = ({ queries, selectedQuery, setSelectedQuery }) => {
   useEffect(() => {
     setSelectedQuery(queries[0]);
   }, []);
-  console.log(selectedQuery, queries);
   return (
     <select
     value={selectedQuery?.id}
