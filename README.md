@@ -24,8 +24,7 @@ This is a web-based application that simulates an SQL query interface, allowing 
 ### Frontend
 - React (Create React App)
 - React Hooks
-- Shadcn/UI Components
-- Tailwind CSS
+- Code Mirror Editor
 
 ### State Management
 - React useState/useEffect
