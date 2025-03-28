@@ -78,6 +78,10 @@ sql-query-interface/
 │   │   ├── ResultTable.js
 │   │   └── QueryDisplay.js
 │   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── Home.css
+│   │
 │   ├── data/
 │   │   └── queries.json
 │   │
